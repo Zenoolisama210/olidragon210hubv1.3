@@ -335,16 +335,20 @@ btns4:Button("FLING ALL (SHAKE SERVER)", function()
 loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop%20fling%20all'))()
 end)
 
-local tool = serv:Channel("Tools")
+local btns5 = serv:Channel("Tools")
 
 
-tool:Button("fly gui", function()
+btns5:Button("fly gui", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/gaz0U0XX"))();
 end)
 
-tool:Button("FE click fling tool", function()
+btns5:Seperator()
+
+btns5:Button("FE click fling tool", function()
 loadstring(game:HttpGet(('https://pastefy.ga/xBdd9GId/raw'),true))()
 end)
+
+btns5:Button
 
 btns5:Button("fly car gui", function()
 
@@ -354,21 +358,20 @@ end)
 
 btns5:Seperator()
 
-tool:Seperator()
 
-tool:Button("FE portail gun v2", function()
+btns5:Button("FE portail gun v2", function()
 loadstring(game:HttpGet(('https://pastefy.ga/hXHOUgDa/raw'),true))()
 end)
 
-tool:Seperator()
+btns5:Seperator()
 
-tool:Button("FE Invisible Tool", function()
+btns5:Button("FE Invisible Tool", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/Ep7QB76P"))()
 end)
 
-tool:Seperator()
+btns5:Seperator()
 
-tool:Button("FE Punch  Tool", function()
+btns:Button("FE Punch  Tool", function()
 loadstring(game:HttpGet(('https://pastefy.ga/GvnHVjT5/raw'),true))()
 end)
 
